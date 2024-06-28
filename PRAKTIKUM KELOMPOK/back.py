@@ -21,7 +21,7 @@ HIJAU = (0, 255, 0)
 suara_lompatan = pygame.mixer.Sound('jump.wav')
 class Burung:
     def __init__(self):
-        self.gambar = pygame.image.load('burungPY.JPG').convert_alpha()  
+        self.gambar = pygame.image.load('burung_fixPY.JPG').convert_alpha()  
         self.ukuran = 45 
         self.gambar = pygame.transform.scale(self.gambar, (self.ukuran, self.ukuran))
         self.rect = self.gambar.get_rect()
